@@ -1,0 +1,14 @@
+node.parse函数用于解析一个URL地址
+
+1. protocol：该Url的底层协议（Http、Ftp、Tcp）
+2. slashes： 是否有协议的双斜线( // )
+3. auth
+4. host:     Url的服务器地址或是域名
+5. port：    端口号
+6. hostname：主机名
+7. hash：    哈希值，用于#滚动到页面的哪一个部分
+8. search：  查询字符串参数
+9. query：   发起对http访问的数据
+10.pathname：访问资源路径
+11.path：    路径
+12.href：    完整的超链接
